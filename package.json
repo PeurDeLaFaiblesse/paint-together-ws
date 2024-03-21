@@ -1,0 +1,16 @@
+{
+  "name": "paint-together-ws",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build:dev",
+    "check-type": "turbo run check-type"
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.12.5"
+  }
+}
