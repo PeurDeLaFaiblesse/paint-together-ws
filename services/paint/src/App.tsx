@@ -1,12 +1,12 @@
-import { Counter } from './components';
+import { AppProviders, Canvas } from './components';
 import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      <Counter />
+    <AppProviders>
+      <Canvas />
       <Outlet />
-    </div>
+    </AppProviders>
   );
 };
 
